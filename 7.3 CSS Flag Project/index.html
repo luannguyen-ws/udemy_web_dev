@@ -6,7 +6,40 @@
   <title>CSS Flag Project</title>
   <style>
     /* Write your CSS Code here */
-    
+    .flag {
+      width: 900px;
+      height: 600px;
+      background-color: red;
+    }
+    .flag > div {
+      background-color: blue;
+      position: absolute;
+      top: 150px;
+      width: 900px;
+      height: 300px;
+    }
+
+    .flag > div > div {
+      background-color: white;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    p {
+      color: white;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .flag > div div p {
+      color: black;
+    }
+
   </style>
 </head>
 

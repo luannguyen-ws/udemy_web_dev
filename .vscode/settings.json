@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "udemy_web_dev"
+    "liveServer.settings.multiRootWorkspaceName": "udemy_web_dev",
+    "cursor.autocomplete.enabled": false
 }
